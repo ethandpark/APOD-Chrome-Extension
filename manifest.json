@@ -7,5 +7,11 @@
         "default_icon": "images/astronomy.png",
         "default_popup": "popup.html"
     },
-    "permissions": []
+    "chrome_url_overrides": {
+        "newtab": "apod.html"
+    },
+    "permissions": [
+        "tabs"
+    ]
+
 }
