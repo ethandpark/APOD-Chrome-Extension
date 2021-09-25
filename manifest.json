@@ -1,6 +1,11 @@
 {
-  "name": "Getting Started Example",
-  "version": "1.0",
-  "description": "Build an Extension!",
-  "manifest_version": 2
+    "manifest_version": 2,
+    "name": "APOD",
+    "description": "change homepage of new tab to APOD from NASA",
+    "version": "1.0",
+    "browser_action": {
+        "default_icon": "images/astronomy.png",
+        "default_popup": "popup.html"
+    },
+    "permissions": []
 }
